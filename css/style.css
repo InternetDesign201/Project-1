@@ -1,5 +1,10 @@
+*{
+	box-sizing: border-box; 
+}
+
 body{
-	margin: 0px; 
+	margin: 0px;
+	font-family: sans-serif;
 }
 
 section{
@@ -12,7 +17,7 @@ section{
 
 header{
 	background-color: #99cccc;
-	color: white;
+	color: white; 
 	padding-top: 30px;
 	padding-bottom: 30px;
 }
@@ -37,12 +42,24 @@ nav a, nav h3{
 }
 
 nav a:hover{
-	text-decoration: underline;
+	text-decoration: underline; 
+}
 
 
+
+/* Simple grid */
 .g-row{
 	width: 100%;
 	overflow: hidden;
+}
+
+.g-row img{
+	width: 100%; 
+}
+
+.g-50{
+	width: 50%;
+	float: left;
 }
 
 .g-30{
@@ -56,9 +73,16 @@ nav a:hover{
 }
 
 
-.padded{
-	padding: 20px;
+.show{
+	border: 1px solid blue;
+	padding: 2px;
 }
+
+.padded{
+	padding: 20px; 
+}
+
+
 
 .center {
   display: block;
@@ -89,7 +113,6 @@ color: white;
 p {
 font-size: 16px;
 font-family: Courier;
-text-indent: 12px;
 }
 
 h4 {
