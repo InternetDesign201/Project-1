@@ -1,12 +1,5 @@
-*{
-	box-sizing: border-box; 
-	/* This makes the widths of elements more consistent
-		Full details here https://css-tricks.com/box-sizing/ */
-}
-
 body{
-	margin: 0px; /* Often browsers have a 5px margin by deafult*/
-	font-family: sans-serif;
+	margin: 0px; 
 }
 
 section{
@@ -19,7 +12,7 @@ section{
 
 header{
 	background-color: #99cccc;
-	color: white; /* more readable on an orange background */
+	color: white;
 	padding-top: 30px;
 	padding-bottom: 30px;
 }
@@ -44,24 +37,12 @@ nav a, nav h3{
 }
 
 nav a:hover{
-	text-decoration: underline; /* Hover styles to let people know they can click it */
-}
+	text-decoration: underline;
 
 
-
-/* Simple grid */
 .g-row{
 	width: 100%;
 	overflow: hidden;
-}
-
-.g-row img{
-	width: 100%; /*This makes all images in grids to be the size of their cell */
-}
-
-.g-50{
-	width: 50%;
-	float: left;
 }
 
 .g-30{
@@ -75,16 +56,9 @@ nav a:hover{
 }
 
 
-.show{
-	border: 1px solid blue;
-	padding: 2px;
-}
-
 .padded{
-	padding: 20px; /* I add this to cells to add a little padding*/
+	padding: 20px;
 }
-
-/* Brooke */
 
 .center {
   display: block;
@@ -157,11 +131,11 @@ span:hover + img{
 .navbar {
   overflow: hidden;
   background-color: #333;
-  position: fixed; /* Set the navbar to fixed position */
-  top: 0; /* Position the navbar at the top of the page */
-  width: 100%; /* Full width */
+  position: fixed; 
+  top: 0; 
+  width: 100%; 
 }
 
 .main {
-  margin-top: 120px; /* Add a top margin to avoid content overlay */
+  margin-top: 120px; 
 }
